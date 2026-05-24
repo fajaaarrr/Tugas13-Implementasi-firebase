@@ -88,7 +88,8 @@ void _bacaDataRealtime() {
 ### 📱 Tampilan Antarmuka Aplikasi (Flutter UI)
 Menampilkan form input koordinat serta daftar koordinat lokasi yang berhasil ditarik secara langsung dari Firebase Realtime Database.
 
-![Flutter UI Screenshot](screenshots/flutter_ui.png)
+![Flutter UI Screenshot](<img width="608" height="985" alt="Screenshot 2026-05-24 155330" src="https://github.com/user-attachments/assets/40a83e39-c1aa-44d1-9d9f-ed71fa96c5c1" />
+)
 
 *Gambar di atas menunjukkan aplikasi berhasil dijalankan dan menampilkan koordinat "hotel" (Lat: 75.6 | Lng: 12.3).*
 
@@ -97,7 +98,8 @@ Menampilkan form input koordinat serta daftar koordinat lokasi yang berhasil dit
 ### ☁️ Tampilan Data di Firebase Realtime Database Console
 Bukti data tersimpan secara terstruktur di dalam Cloud Firebase pada node `lokasi_user` lengkap dengan kunci ID unik otomatis (`-Ot0B369...`).
 
-![Firebase Console Screenshot](screenshots/firebase_console.png)
+![Firebase Console Screenshot](<img width="1919" height="1025" alt="Screenshot 2026-05-24 155452" src="https://github.com/user-attachments/assets/781d9eea-210b-40c6-8511-a070065eb0f0" />
+)
 
 *Gambar di atas membuktikan data tersinkronisasi sempurna di server cloud Firebase dengan struktur yang tepat.*
 
