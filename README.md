@@ -2,17 +2,14 @@
 
 Proyek Flutter ini dibuat untuk mendemonstrasikan integrasi aplikasi Flutter dengan **Firebase Realtime Database** untuk menyimpan, membaca, dan menampilkan data koordinat lokasi secara *real-time*.
 
----
-
-## 👤 Biodata Mahasiswa
 
 *   **Nama:** Muhammad fajar Shodiq
 *   **NIM:** 1202230045
 *   **Mata Kuliah:** Aplikasi Perangkat Bergerak
 
----
 
-## 🚀 Fitur Aplikasi
+
+ Fitur Aplikasi
 
 1.  **Inisialisasi Firebase Otomatis:** Menggunakan `DefaultFirebaseOptions` hasil konfigurasi platform untuk inisialisasi yang aman pada Web, Android, maupun iOS.
 2.  **Menyimpan Koordinat ke Cloud:** Mengirimkan data nama tempat, latitude, dan longitude secara terstruktur ke Firebase Realtime Database dengan ID unik otomatis menggunakan metode `.push().set()`.
@@ -21,7 +18,7 @@ Proyek Flutter ini dibuat untuk mendemonstrasikan integrasi aplikasi Flutter den
 
 ---
 
-## 💻 Penjelasan Struktur Kode & Logika
+ Penjelasan Struktur Kode & Logika
 
 ### 1. Inisialisasi Firebase (`lib/main.dart`)
 Sebelum aplikasi diluncurkan (`runApp`), Flutter memastikan seluruh *binding* telah siap dan menginisialisasi Firebase menggunakan konfigurasi platform yang sesuai.
@@ -105,7 +102,7 @@ Bukti data tersimpan secara terstruktur di dalam Cloud Firebase pada node `lokas
 
 ---
 
-## 🛠️ Panduan Menjalankan Proyek Secara Lokal
+ Panduan Menjalankan Proyek Secara Lokal
 
 1. Clone repositori ini ke komputer Anda:
    ```bash
